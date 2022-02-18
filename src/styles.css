@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  padding: 30px;
+  max-width: 900px;
+}
+
+h1,
+h2 {
+  margin-top: 30px;
+}
+
+.lesson-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explanation {
+  margin-right: 20px;
+  width: 55%;
+}
+
+.code {
+  padding: 20px;
+  background-color: #222222;
+  color: white;
+  height: auto;
+  font-size: 0.8rem;
+  width: 45%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav * {
+  margin: 10px;
+  text-decoration: none;
+  color: #aaa;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0px;
+}
+
+nav *:hover {
+  /* color: #888; */
+}
+
+.active {
+  color: rgb(44, 110, 231);
+  border: 1px solid cornflowerblue;
+  padding: 10px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0px;
+}
+
+.axioslogo {
+  width: 200px;
+  margin: 10px;
+}
+
+.reactlogo {
+  height: 120px;
+  margin: 10px;
+}
+
+select {
+  margin: 20px;
+  padding: 2px;
+}
